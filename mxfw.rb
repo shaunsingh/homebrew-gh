@@ -11,6 +11,6 @@ class Mxfw < Formula
   def install
     system "meson build"
     system "meson compile -C build"
-    bin.install "#{buildpath}/src/mxfw"
+    bin.install "#{buildpath}/mxfw"
   end
 end
