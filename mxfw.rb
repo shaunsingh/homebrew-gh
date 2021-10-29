@@ -1,4 +1,4 @@
-class Sodium < Formula
+class Mxfw < Formula
   desc "Framework window manager for macOS"
   homepage "https://github.com/Sweets/mxfw"
   head "https://github.com/Sweets/mxfw.git", branch: "main"
